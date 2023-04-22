@@ -1,0 +1,440 @@
+@font-face {
+  font-family: Lora;
+  src: url("../fonts/Lora-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: WorkSans;
+  src: url("../fonts/WorkSans-VariableFont_wght.ttf");
+}
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  font-family: "WorkSans", Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+}
+header img {
+  width: 100vw;
+  height: 20vw;
+  margin-bottom: 3rem;
+}
+header section {
+  justify-content: center;
+}
+header section h3 {
+  font-size: 1.6rem;
+  font-family: "WorkSans", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+header section h1 {
+  font-size: 8.8rem;
+  font-family: "Lora", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 70px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+header section {
+  position: relative;
+}
+header section svg {
+  position: absolute;
+  width: 54px;
+  height: 30px;
+  left: 2rem;
+  top: 11rem;
+}
+header section a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  border: 1px solid #fff;
+  position: absolute;
+  right: 2rem;
+  top: 11rem;
+  padding: 1rem;
+}
+
+.map {
+  position: relative;
+  background-color: #000;
+}
+.map article {
+  max-width: 100vw;
+  min-height: 100vh;
+}
+.map article h2 {
+  font-family: "Lora", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 8.8rem;
+  line-height: 113px;
+  color: #fff;
+  padding-top: 10rem;
+  padding-left: 2rem;
+}
+.map img {
+  width: 509px;
+  height: 617px;
+  right: 2rem;
+  bottom: 3rem;
+  position: absolute;
+}
+.map .info {
+  padding-left: 2rem;
+  padding-bottom: 5rem;
+}
+.map .info p {
+  font-family: "WorkSans";
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 32px;
+  color: #fff;
+  padding-top: 4rem;
+}
+.map .info p:nth-of-type(1) {
+  margin-top: 4rem;
+  padding-top: 17rem;
+}
+.map .info h3 {
+  font-family: "Lora";
+  font-weight: 600;
+  font-size: 8.4rem;
+  line-height: 82px;
+  color: #fff;
+}
+.map .info h3:nth-of-type(3) {
+  margin-bottom: 4rem;
+}
+
+main .stuck-page {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+main .stuck-page .action1 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-right: 2rem;
+  margin-top: -7rem;
+  z-index: 10;
+  width: 300px;
+  height: 200px;
+}
+main .stuck-page .action2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-left: 2rem;
+  width: 240px;
+  height: 160px;
+}
+main .stuck-page .middle-text {
+  width: 485px;
+  height: 260px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  padding-left: 7rem;
+}
+main .stuck-page .middle-text h2 {
+  font-family: "Lora", Arial, Helvetica, sans-serif;
+  font-size: 8.8rem;
+  line-height: 70px;
+  text-align: left;
+  color: #000;
+}
+main .stuck-page .middle-text p {
+  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  line-height: 32px;
+  text-align: left;
+  color: #000;
+}
+main .stuck-page .action3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  margin-left: auto;
+  width: 240px;
+  height: 160px;
+}
+main .stuck-page .action4 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  margin-left: 21rem;
+  width: 300px;
+  height: 200px;
+}
+main .stuck-page .action5 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 8;
+  grid-row-end: 9;
+  margin-left: -19rem;
+  width: 300px;
+  height: 200px;
+}
+main .stuck-page .action6 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 9;
+  grid-row-end: 10;
+  margin-right: auto;
+  width: 240px;
+  height: 160px;
+}
+main .stuck-page p {
+  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  line-height: 32px;
+  color: #000;
+  width: 480px;
+  height: 192px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 9;
+  grid-row-end: 10;
+}
+main .stuck-page .wrapper {
+  position: relative;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 11;
+  grid-row-end: 12;
+  width: 300px;
+  height: 200px;
+}
+main .stuck-page .wrapper .action7 {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 34%;
+}
+main .bear {
+  background-color: #000;
+}
+main .bear article {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20rem;
+  margin-bottom: 18rem;
+}
+main .bear article div {
+  color: #fff;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 500px;
+  height: 256px;
+  padding-top: 20rem;
+}
+main .bear article div p {
+  font-size: 16px;
+  line-height: 32px;
+}
+main .bear article div p:nth-of-type(1) {
+  padding-bottom: 7rem;
+  padding-top: 3%;
+  font-family: "WorkSans";
+}
+main .bear article div p:nth-of-type(2) {
+  padding-bottom: 3rem;
+  font-family: "WorkSans";
+}
+main .bear article div h2 {
+  font-family: "Lora";
+  font-size: 88px;
+  line-height: 70px;
+  padding-right: 2rem;
+}
+main .bear article div h5 {
+  font-family: "Lora";
+  font-size: 32px;
+  line-height: 32px;
+  margin-top: 10rem;
+}
+main .bear div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7%;
+}
+main .bear div img {
+  position: relative;
+  display: block;
+}
+main .bear div img:nth-of-type(1) {
+  z-index: 10;
+  width: 703px;
+  height: 703px;
+  margin-right: -11%;
+}
+main .bear div img:nth-of-type(2) {
+  width: 358px;
+  height: 463px;
+  z-index: 20;
+  margin-top: 15%;
+}
+main .poppy {
+  background-color: #fff;
+}
+main .poppy article {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20rem;
+  margin-bottom: 18rem;
+  position: relative;
+}
+main .poppy article img {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  right: 0px;
+  top: 0px;
+}
+main .poppy article div {
+  color: #000;
+}
+main .poppy article h2 {
+  padding-right: 12%;
+}
+main .poppy div img {
+  position: relative;
+  display: block;
+}
+main .poppy div img:nth-of-type(1) {
+  width: 358px;
+  height: 463px;
+  z-index: 20;
+  margin-top: 15%;
+  margin-right: -11%;
+}
+main .poppy div img:nth-of-type(2) {
+  z-index: 10;
+  width: 703px;
+  height: 703px;
+}
+main .join-page {
+  min-height: 65vh;
+  background-color: #000;
+  position: relative;
+  overflow: hidden;
+  /* border: 2px solid black; */
+}
+main .join-page .banner {
+  color: #000;
+  background-color: #fff;
+  right: -200px;
+  position: absolute;
+  transform: rotate(45deg);
+}
+main .join-page .banner p {
+  font-family: "WorkSans", Arial, Helvetica, sans-serif;
+  font-size: 88px;
+  line-height: 70px;
+}
+main .join-page article {
+  color: #fff;
+  padding-top: 100px;
+  padding-left: 3%;
+  width: 500px;
+}
+main .join-page article p {
+  font-family: "WorkSans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 3%;
+}
+main .join-page article h5 {
+  font-family: "Lora";
+  font-size: 32px;
+  line-height: 32px;
+  margin-bottom: 5%;
+}
+main .join-page article a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 1rem;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer div {
+  margin-left: 3%;
+  padding-top: 1%;
+  padding-bottom: 8%;
+}
+footer div article {
+  display: flex;
+  align-items: center;
+  gap: 4%;
+}
+footer div article img {
+  width: 20.74px;
+  height: 20px;
+  /*                     &:nth-of-type(1){
+
+                      } */
+}
+footer div p {
+  font-size: 16px;
+  line-height: 32px;
+  font-family: "WorkSans", Arial, Helvetica, sans-serif;
+  width: 200px;
+}
+footer div p:nth-of-type(2) {
+  margin-top: 5px;
+}
+footer .logo-left {
+  display: flex;
+  align-items: center;
+  padding-right: 3%;
+}
+footer .logo-left img:nth-of-type(1) {
+  width: 85px;
+  height: 48px;
+  margin-right: 5%;
+}
+footer .logo-left img:nth-of-type(2) {
+  width: 104px;
+  height: 32px;
+}
+
+/*# sourceMappingURL=style.css.map */
