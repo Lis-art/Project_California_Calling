@@ -1,0 +1,25 @@
+@mixin font-styles($fontSize, $fontFamily, $fontWeight, $lineHight, $color){
+    font-size: $fontSize;
+    font-family: $fontFamily , Arial, Helvetica, sans-serif;
+    font-weight: $fontWeight;
+    line-height: $lineHight;
+    color: $color;
+}
+
+@mixin flex($display, $align-items, $justify-content){
+    display: $display;
+    align-items: $align-items;
+    justify-content: $justify-content;
+}
+
+@mixin grid($colS, $colE, $rowS, $rowE){
+    grid-column-start: $colS; 
+    grid-column-end: $colE; 
+    grid-row-start: $rowS; 
+    grid-row-end: $rowE; 
+}
+
+@mixin heightWidth($height, $width){
+    height: $height;
+    width: $width;
+}
